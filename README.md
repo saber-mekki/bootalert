@@ -5,7 +5,7 @@ This component wrap Bootstrap v4 Alert in React component.
 ## How to use
 
 ```bash
-yarn add bootalert
+yarn add react-bootalert
 ```
 
 ## Commands
