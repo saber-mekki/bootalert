@@ -13,7 +13,7 @@ type Variant =
 
 export type Props = {
     variant: Variant;
-    children: React.ReactChild;
+    children: React.ReactChildren;
 };
 
 export function BootAlert({ variant, children }: Props) {
