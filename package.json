@@ -1,4 +1,5 @@
 {
+    "homepage": "http://saber-mekki.github.io/bootalert",
     "name": "react-bootalert",
     "author": "Saber",
     "version": "3.0.0",
@@ -21,7 +22,9 @@
         "size": "size-limit",
         "analyze": "size-limit --why",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook",
+        "predeploy": "npm run build-storybook",
+        "deploy": "gh-pages -d storybook-static"
     },
     "peerDependencies": {
         "react": ">=16"
@@ -53,6 +56,7 @@
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
         "babel-loader": "^8.2.3",
+        "gh-pages": "^3.2.3",
         "husky": "^7.0.4",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
@@ -81,6 +85,5 @@
     ],
     "bugs": {
         "url": "https://github.com/saber-mekki/bootalert/issues"
-    },
-    "homepage": "https://github.com/saber-mekki/bootalert#readme"
+    }
 }
